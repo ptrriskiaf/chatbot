@@ -88,3 +88,16 @@
 .chat-input #send-btn:hover {
     background-color: #0056b3; /* Darker shade of blue */
 }
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    .chatbot {
+        max-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .chat p {
+        max-width: 100%;
+    }
+}
